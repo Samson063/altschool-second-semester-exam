@@ -24,7 +24,7 @@ function App() {
 
   return (
     <>
-{isLoading && (<p>Loading...</p>)}
+{isLoading && (<p className='loading'>Loading...</p>)}
 {!isLoading && ( <><header className="App-header">
         <div className='profile'>
           <img src={profileImage} alt='profile' id='profile_img' />
