@@ -1,13 +1,13 @@
-body{
+body {
   background: #161b22;
 }
 
-header{
+header {
   display: flex;
   align-items: center;
 }
 
-.navbar-menu{
+.navbar-menu {
   display: flex;
   align-items: center;
   list-style: none;
@@ -16,11 +16,11 @@ header{
   border-bottom: 2px solid #f0f6fc;
 }
 
-.navbar-items{
+.navbar-items {
   height: 80px;
 }
 
-.navbar-links{
+.navbar-links {
   color: #f0f6fc;
   display: flex;
   align-items: center;
@@ -30,14 +30,14 @@ header{
   height: 100%;
 }
 
-img{
+img {
   border-radius: 50%;
   width: 300px;
   margin-top: 100px;
   margin-left: 50px;
 }
 
-.repositories{
+.repositories {
   display: flex;
   justify-content: space-between;
   max-height: 70px;
@@ -46,19 +46,27 @@ img{
   margin-top: -300px;
 }
 
-p{
+.fabook {
+  margin: 10px 10px 0px 20px;
+}
+
+.book-button {
+  width: 200px;
+}
+
+p {
   color: #f0f6fc;
   font-size: 20px;
 }
 
- .repositories .navbar-link{
+.repositories .navbar-link {
   font-size: 20px;
   color: aqua;
   text-decoration: none;
   margin-top: 20px;
 }
 
-.repo-box{
+.repo-box {
   max-width: 900px;
   margin-left: 450px;
   display: flex;
@@ -67,37 +75,37 @@ p{
   justify-content: space-between;
 }
 
-.box{
-  width: 400px;
+.box {
+  width: 320px;
   border: 1px solid #393f47;
   border-radius: 5px;
   height: 100px;
-  margin: 20px 0 20px 0;
+  margin: 20px 20px 20px 0;
   padding: 10px 10px 10px 10px;
 }
 
-h3{
+h3 {
   color: #f0f6fc;
   font-size: 25px;
   font-weight: 100;
 }
 
-.name{
+.name {
   margin-left: 100px;
 }
 
-.starCount{
-  margin-left: 10px ;
+.starCount {
+  margin-left: 10px;
 }
 
-.loading{
+.loading {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 350px;
 }
 
-button{
+button {
   max-width: 350px;
   width: 320px;
   height: 45px;
@@ -108,53 +116,53 @@ button{
   font-weight: bold;
 }
 
-button:hover{
+button:hover {
   border: 1px solid #f0f6fc;
   background-color: #3c4249;
   color: #f0f6fc;
 }
 
-.cal{
+.cal {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.cal a{
+.cal a {
   text-decoration: none;
   color: #58a6ff;
 }
 
-.cal a:hover{
+.cal a:hover {
   border-bottom: 2px solid #58a6ff;
 }
 
-small{
+small {
   border: 0.5px solid #f0f6fc;
   border-radius: 10px;
   color: #f0f6fc;
   padding: 1px 7px 2px 7px;
 }
 
-.jav{
+.jav {
   display: flex;
   flex-direction: row;
   margin-top: 30px;
 }
 
-i{
+i {
   color: #f0f6fc;
   margin-top: 15px;
   margin-left: 15px;
 }
 
-.box p{
+.box p {
   font-size: 14px;
   padding: 0 0 0 0;
 }
 
 @media (max-width: 767px) {
-  .repositories{
+  .repositories {
     display: flex;
     justify-content: space-between;
     max-height: 70px;
@@ -163,9 +171,7 @@ i{
     margin-top: -300px;
   }
 
-  .repositories a{
+  .repositories a {
     margin-top: 20px;
   }
-
- 
 }
